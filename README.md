@@ -33,3 +33,6 @@ Reikalavimai mobiliosios aplikacijos funkcionalumui:
 - Po paskutinio pasakos puslapio yra apklausa, kurioje yra klausimai susije su pasaką.
 - Apklausos rezultatai yra išsaugojami JSON faile ir patalpinami mobiliajame įrenginyje.
 
+
+
+<img src="https://prnt.sc/VQAeyqQvD4Fx">
