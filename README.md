@@ -32,9 +32,11 @@ Reikalavimai mobiliosios aplikacijos funkcionalumui:
 - Gif formato paveikslėlis bet kokio nors gyvuno, kurį paspaudus paleidžiamas garsas, susijęs su gyvunu tame puslapyje.
 - Po paskutinio pasakos puslapio yra parašytas mobiliosios aplikacijos autorius ir apklausa, kurioje yra klausimai susije su pasaką.
 - Apklausos rezultatai yra išsaugojami JSON faile ir patalpinami mobiliajame įrenginyje.
-<br>
-Bellow are a couple of images of the application/Žemiau yra keleta aplikacijos nuotraukų <br>
 
+Bellow are a couple of images of the application/Žemiau yra keleta aplikacijos nuotraukų 
+<br>
+<br>
+<br>
 
 <img width="264" alt="MobileApp1" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/af5855fa-3f3b-4cc6-af98-f16229c4e91c">
 <img width="260" alt="MobileApp4" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/dbc92b82-e275-4c35-86b3-46349d32e302">
