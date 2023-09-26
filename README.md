@@ -34,5 +34,6 @@ Reikalavimai mobiliosios aplikacijos funkcionalumui:
 - Apklausos rezultatai yra išsaugojami JSON faile ir patalpinami mobiliajame įrenginyje.
 
 
+<img width="264" alt="MobileApp1" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/6e2f0120-9c21-4e40-9b5b-a32c0a9307ca">
 
-<img src="https://prnt.sc/VQAeyqQvD4Fx">
+
