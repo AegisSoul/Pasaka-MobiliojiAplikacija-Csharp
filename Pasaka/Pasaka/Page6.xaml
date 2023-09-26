@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pasaka.Page6"
+             BackgroundImageSource="BackgroundImage.jpg">
+    <StackLayout>
+        <Label HorizontalOptions="Center" TextColor="White" FontSize="80" Style="{StaticResource NormalFont}">Burtininkė</Label>
+        <Frame CornerRadius="15" BackgroundColor="#AB000000" BorderColor="Black" Margin="10, 20, 10, 20" Padding="0, 0, 5, 5">
+            <ContentView Margin="10, 15, 10, 5" Padding="5">
+                <Label TextColor="White" VerticalOptions="CenterAndExpand" FontSize="Medium" HorizontalOptions="CenterAndExpand">— Ko taip veikiai sugrįžai, meilute? — džiaugsmingai sutiko motina tikrąją savo dukrelę.
+— Atstok tu nuo manęs! Ligi gyvo kaulo man įsiėdei! — piktai atsakė Onytė ir pati nusigando: mat po kiekvieno mergaitės žodžio krito iš gerklės bjauri varlė ar slidi gyvatė.
+— Žinau, kas čia dabar kaltas! — subliovė pamotė ir, kumščius sugniaužus, puolė podukrą.
+Vargšė Alenytė, primušta ir nuskausta, išbėgo iš namų ir pasislėpė kalnuose. O ten kaip sykis medžiojo gražus karalaitis.
+                </Label>
+            </ContentView>
+        </Frame>
+        <Grid x:Name="GifGrid" HorizontalOptions="Center">
+            <Image Source="whale.gif" IsAnimationPlaying="True" HeightRequest="60" WidthRequest="60" Scale="2">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+        <Grid x:Name="MainGrid" VerticalOptions="EndAndExpand">
+            <ImageButton Source="WizardButtonNextPage1" BackgroundColor="Transparent" Clicked="NavigateButton_OnClicked" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Margin="15" HeightRequest="100" WidthRequest="100"></ImageButton>
+            <ImageButton Source="WizardButtonLastPage1" BackgroundColor="Transparent" Clicked="NavigateButton_OnClicked1" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand" Margin="15" HeightRequest="100" WidthRequest="100"></ImageButton>
+        </Grid>
+
+    </StackLayout>
+</ContentPage>

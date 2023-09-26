@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:chips="clr-namespace:Xamarin.Forms.Chips;assembly=Xamarin.Forms.Chips"
+             x:Class="Pasaka.Page10">
+    <ScrollView>
+        <StackLayout>
+            <Label HorizontalOptions="Center">Anketa</Label>
+            
+            <StackLayout>
+                <Label x:Name="InputQuestion"  Margin="10, 0, 0 ,0" Text="Įveskite, koks buvo motinos prodrukros vardas"/>
+                <Entry x:Name="EntryAnswer"></Entry>
+            </StackLayout>
+            
+            <StackLayout x:Name="RadioButtons1">
+                <Label Text="Koks buvo pamotės vardas?" />
+                <RadioButton Content="Onytė" CheckedChanged="RadioButton_CheckedChanged" Value="{Binding Page10Form.RadioAnswer}"/>
+                <RadioButton Content="Alenytė" CheckedChanged="RadioButton_CheckedChanged" Value="{Binding Page10Form.RadioAnswer}"/>
+                <RadioButton Content="Motina" CheckedChanged="RadioButton_CheckedChanged" Value="{Binding Page10Form.RadioAnswer}"/>
+                <RadioButton Content="Vardas nepaminėtas" CheckedChanged="RadioButton_CheckedChanged" Value="{Binding Page10Form.RadioAnswer}"/>
+            </StackLayout>
+            
+            <StackLayout x:Name="RadioButtons2" RadioButtonGroup.GroupName="Group1">
+                <Label Text="Koks buvo motinos dukters vardas?" />
+                <RadioButton Content="Onytė" CheckedChanged="RadioButton_CheckedChanged1"/>
+                <RadioButton Content="Alenytė" CheckedChanged="RadioButton_CheckedChanged1"/>
+                <RadioButton Content="Simona" CheckedChanged="RadioButton_CheckedChanged1"/>
+                <RadioButton Content="Vardas nepaminėtas" CheckedChanged="RadioButton_CheckedChanged1"/>
+                
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Ką sutiko Alenytė prie šulinio?" />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" TextColor="Black" x:Name="CheckAnswer1" Text="Raganą"></Label>
+                    <CheckBox ClassId="CheckBoxAnswer1" x:Name="CheckBoxAnswer1" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" CheckedChanged="CheckBoxAnswer1_CheckedChanged"></CheckBox>
+                    <Label Grid.Row="0" Grid.Column="1" TextColor="Black" x:Name="CheckAnswer2" Text="Burtininkę"></Label>
+                    <CheckBox ClassId="CheckBoxAnswer2" x:Name="CheckBoxAnswer2" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" CheckedChanged="CheckBoxAnswer1_CheckedChanged"></CheckBox>
+                    <Label Grid.Row="0" Grid.Column="2" TextColor="Black" x:Name="CheckAnswer3" Text="Karalių"></Label>
+                    <CheckBox ClassId="CheckBoxAnswer3" x:Name="CheckBoxAnswer3" Grid.Row="1" Grid.Column="2" HorizontalOptions="Center" CheckedChanged="CheckBoxAnswer1_CheckedChanged"></CheckBox>
+                </Grid>
+                <StackLayout>
+                    <Picker x:Name="Picker" Title="Ko burtininkė paprašė Alenytės?" TitleColor="Red" SelectedIndexChanged="Picker_SelectedIndexChanged">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Atsigerti</x:String>
+                                <x:String>Pavalgyti</x:String>
+                                <x:String>Pinigų</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                    
+
+                </StackLayout>
+                <StackLayout>
+                    <Label>Kas sutiko Alenytę miške?</Label>
+                    <Grid x:Name="Chips1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Button x:Name="ChipAnswer1"  BackgroundColor="LightGray" TextColor="Black" Grid.Row="0" Grid.Column="0" Text="Princas" CornerRadius="15" BorderColor="Gray" BorderWidth="1" Margin="10, 10, 10, 0" Clicked="Chip_Clicked"></Button>
+                        <Button x:Name="ChipAnswer2"  BackgroundColor="LightGray" TextColor="Black" Grid.Row="0" Grid.Column="1" Text="Karalius" CornerRadius="15" BorderColor="Gray" BorderWidth="1" Margin="10, 10, 10, 0" Clicked="Chip_Clicked1"></Button>
+                        <Button x:Name="ChipAnswer3"  BackgroundColor="LightGray" TextColor="Black" Grid.Row="0" Grid.Column="2" Text="Onytė" CornerRadius="15" BorderColor="Gray" BorderWidth="1" Margin="10, 10, 10, 0" Clicked="Chip_Clicked2"></Button>
+                    </Grid>
+                    
+                    
+                </StackLayout>
+            </StackLayout>
+            
+            <Button Text="Pateikti" HorizontalOptions="Center" Margin="0, 0, 0, 10" Clicked="Button_Clicked"></Button>
+
+        </StackLayout>
+    </ScrollView>
+    
+</ContentPage>

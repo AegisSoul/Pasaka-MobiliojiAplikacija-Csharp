@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pasaka.Page1"
+             BackgroundImageSource="BackgroundImage.jpg">
+    <StackLayout>
+        <Label HorizontalOptions="Center" TextColor="White" FontSize="80" Style="{StaticResource NormalFont}">Burtininkė</Label>
+        <Frame CornerRadius="15" BackgroundColor="#AB000000" BorderColor="Black" Margin="10, 20, 10, 20" Padding="0, 0, 5, 5">
+            <ContentView  Margin="10, 15, 10, 5" Padding="0, 0, 0, 0" >
+                <Label TextColor="White" VerticalOptions="CenterAndExpand" FontSize="Medium" HorizontalOptions="CenterAndExpand">Už jūrų plačiausių, už kalnų aukščiausių gyveno našlė. Ji turėjo dukterį Onytę ir podukrą Alenytę. Tikrąją savo dukrelę motina neapsakomai mylėjo, o podukrą ėste ėdė. Onytė buvo negraži, pikta ir labai tingi mergaitė, o Alenytė — graži, gera ir meili. Tiktai gyvenimas jos buvo labai vargus: kur sunkesnis, kur nešvaresnis pasitaikydavo darbas, vis Alenytė dirbo: ir grindis plovė, ir vandenį iš tolimo šulinio nešė, o gero žodelio niekuomet negirdėjo, vienas nuoskaudas kentė.</Label>
+            </ContentView>
+        </Frame>
+        <Grid x:Name="GifGrid" HorizontalOptions="Center" ScaleX="2" ScaleY="2">
+            <Image Source="crowwalking.gif" IsAnimationPlaying="True">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+        <ImageButton Source="WizardButtonNextPage1" BackgroundColor="Transparent" Clicked="NavigateButton_OnClicked" VerticalOptions="EndAndExpand" HorizontalOptions="End" Margin="15" HeightRequest="100" WidthRequest="100"></ImageButton>
+        
+    </StackLayout>
+</ContentPage>
