@@ -34,14 +34,20 @@ Reikalavimai mobiliosios aplikacijos funkcionalumui:
 - Apklausos rezultatai yra išsaugojami JSON faile ir patalpinami mobiliajame įrenginyje.
 
 
+<img width="264" alt="MobileApp1" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/af5855fa-3f3b-4cc6-af98-f16229c4e91c">
+
+<img width="260" alt="MobileApp4" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/dbc92b82-e275-4c35-86b3-46349d32e302">
+
+<img width="254" alt="MobileApp6" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/4a7672d1-4cde-438a-a082-aa0e8551cf13">
+
+<img width="257" alt="MobileApp9" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/89528b96-dbdd-4dd6-b909-38057ad44784">
 
 <img width="263" alt="MobileApp10" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/a2c96236-4829-44a8-a690-714e0a2bfcac">
-<img width="257" alt="MobileApp9" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/89528b96-dbdd-4dd6-b909-38057ad44784">
-<img width="254" alt="MobileApp6" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/4a7672d1-4cde-438a-a082-aa0e8551cf13">
-<img width="260" alt="MobileApp4" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/dbc92b82-e275-4c35-86b3-46349d32e302">
-<img width="264" alt="MobileApp1" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/af5855fa-3f3b-4cc6-af98-f16229c4e91c">
-<img width="260" alt="MobileApp12" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/73347094-6dc9-40d7-bb1c-0ac0909f2490">
+
 <img width="261" alt="MobileApp11" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/130dbc1a-7483-4b27-91db-6c5310994a89">
+
+<img width="260" alt="MobileApp12" src="https://github.com/AegisSoul/Pasaka-MobiliojiAplikacija-Csharp/assets/97402640/73347094-6dc9-40d7-bb1c-0ac0909f2490">
+
 
 
 
